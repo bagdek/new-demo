@@ -13,7 +13,7 @@ public class DemoApplication {
         SpringApplication.run(DemoApplication.class, args);
     }
 
-    @GetMapping("/")   // ✅ API endpoint
+    @GetMapping("/get")   // ✅ API endpoint
     public String hello() {
         return "Hello World";
     }
